@@ -45,3 +45,23 @@ this project.
 The original mautrix-linkedin source remains the canonical reference for
 the LinkedIn Voyager protocol; consult it for protocol changes that this
 port has not yet picked up.
+
+────────────────────────────────────────────────────────────────────────
+
+TRADEMARK & AFFILIATION
+
+"LinkedIn" is a registered trademark of LinkedIn Corporation. This project
+is not affiliated with, endorsed by, sponsored by, or otherwise connected
+to LinkedIn Corporation or Microsoft Corporation. The trademark is used
+here solely for descriptive purposes to identify the third-party service
+this software interoperates with (nominative fair use). All other
+trademarks are the property of their respective owners.
+
+This software interacts with LinkedIn's private (non-public) web API by
+replaying requests a logged-in browser would make. It is not built on top
+of any official LinkedIn API, developer program, or partnership. Users are
+responsible for ensuring their use complies with LinkedIn's User Agreement
+and Professional Community Policies. The authors disclaim all liability
+for any consequences of using this software against any LinkedIn account.
+See the LICENSE file (AGPLv3 sections 15 and 16) for the full warranty
+and liability disclaimer.

@@ -7,6 +7,43 @@ your terminal, all backed by a local SQLite cache.
 TypeScript port of selected pieces of [mautrix-linkedin][mautrix] (the
 Matrix↔LinkedIn bridge). See [`NOTICE`](./NOTICE) for attribution.
 
+## Disclaimer
+
+**This is an unofficial, third-party project.** It is **not affiliated with,
+endorsed by, sponsored by, or otherwise connected to LinkedIn Corporation
+or its parent Microsoft Corporation in any way.** "LinkedIn" is a registered
+trademark of LinkedIn Corporation, used here only descriptively to identify
+the service this tool interacts with (nominative fair use).
+
+This tool talks to LinkedIn's private internal "Voyager" API by replaying
+the requests a logged-in web browser would make, using session cookies the
+user supplies. It does **not** use any official LinkedIn API or developer
+program.
+
+**Use at your own risk:**
+
+- Automated or scripted access to LinkedIn may violate
+  [LinkedIn's User Agreement][ua] and
+  [Professional Community Policies][pcp]. Using this tool against your own
+  account could result in **temporary restriction, permanent suspension, or
+  termination** of your account.
+- LinkedIn's private API surface changes without notice; commands may break
+  at any time.
+- This project's authors and contributors accept **no liability** for any
+  loss of access, data, time, or anything else arising from use of this
+  software. See the [LICENSE](./LICENSE) (AGPLv3, §§ 15-16) for the full
+  warranty/liability disclaimer.
+
+Run this only against accounts you own and control, and only for your own
+personal use. Do not use it to scrape, harvest, or otherwise interact with
+data belonging to other LinkedIn members at scale.
+
+If you are a representative of LinkedIn Corporation and have concerns about
+this project, please open a GitHub issue.
+
+[ua]: https://www.linkedin.com/legal/user-agreement
+[pcp]: https://www.linkedin.com/legal/professional-community-policies
+
 ## Status
 
 Personal-use tool. Works against LinkedIn's unofficial Voyager API. LinkedIn
