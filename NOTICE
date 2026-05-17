@@ -1,0 +1,47 @@
+linkedin-cli
+Copyright (C) 2026 Bartosz Gotowski
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+────────────────────────────────────────────────────────────────────────
+
+ATTRIBUTION
+
+This project is a TypeScript port of selected parts of mautrix-linkedin
+(https://github.com/mautrix/linkedin), a Go-based Matrix↔LinkedIn bridge
+licensed under the GNU AGPLv3.
+
+The following modules and constants in src/voyager/ are derived from the
+corresponding files under pkg/linkedingo/ in mautrix-linkedin:
+
+  src/voyager/urn.ts            ← pkg/linkedingo/urn.go
+  src/voyager/restli.ts         ← pkg/linkedingo/request.go (queriesToString)
+  src/voyager/headers.ts        ← pkg/linkedingo/request.go, client.go
+  src/voyager/cookies.ts        ← pkg/linkedingo/stringcookiejar.go
+  src/voyager/queryIds.ts       ← pkg/linkedingo/constants.go
+  src/voyager/realtime.ts       ← pkg/linkedingo/realtime.go
+  src/voyager/realtimeMaps.ts   ← pkg/linkedingo/x-li-query-map.json
+                                  pkg/linkedingo/x-li-recipe-map.json
+  src/voyager/client.ts (api shape and parsing of conversations / messages /
+                         send) ← pkg/linkedingo/conversations.go, messages.go,
+                                 self.go
+
+mautrix-linkedin Copyright (C) Tulir Asokan and the mautrix-linkedin
+contributors. The mautrix-linkedin LICENSE.exceptions document grants
+named exceptions to Beeper and Element; those exceptions do NOT apply to
+this project.
+
+The original mautrix-linkedin source remains the canonical reference for
+the LinkedIn Voyager protocol; consult it for protocol changes that this
+port has not yet picked up.

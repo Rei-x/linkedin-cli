@@ -1,0 +1,19 @@
+{
+  "com.linkedin.realtimefrontend.DecoratedEvent": {
+    "topic": "urn:li-realtime:conversationsTopic:urn:li:fsd_profile:ACoAAAExample",
+    "leftServerAt": 1747300000456,
+    "id": "evt-conv-1",
+    "payload": {
+      "data": {
+        "_type": "doDecorateConversationMessengerRealtimeDecoration",
+        "doDecorateConversationMessengerRealtimeDecoration": {
+          "result": {
+            "entityUrn": "urn:li:msg_conversation:(urn:li:fsdProfile:ACoAAAExample,2-bbbbbbbb)",
+            "title": "Some chat",
+            "lastActivityAt": 1747300000000
+          }
+        }
+      }
+    }
+  }
+}

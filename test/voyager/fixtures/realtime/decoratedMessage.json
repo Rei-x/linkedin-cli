@@ -1,0 +1,29 @@
+{
+  "com.linkedin.realtimefrontend.DecoratedEvent": {
+    "topic": "urn:li-realtime:messagesTopic:urn:li:fsd_profile:ACoAAAExample",
+    "leftServerAt": 1747300000123,
+    "id": "evt-msg-1",
+    "payload": {
+      "data": {
+        "_type": "doDecorateMessageMessengerRealtimeDecoration",
+        "doDecorateMessageMessengerRealtimeDecoration": {
+          "result": {
+            "entityUrn": "urn:li:msg_message:(urn:li:fsd_profile:ACoAAAExample,2-aaaaaaaa)",
+            "deliveredAt": 1747300000000,
+            "conversationUrn": "urn:li:msg_conversation:(urn:li:fsdProfile:ACoAAAExample,2-bbbbbbbb)",
+            "body": { "text": "Hello world", "attributes": [] },
+            "sender": {
+              "entityUrn": "urn:li:msg_messagingParticipant:urn:li:fsd_profile:ACoAAASender",
+              "participantType": {
+                "member": {
+                  "firstName": { "text": "Alice" },
+                  "lastName": { "text": "Smith" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

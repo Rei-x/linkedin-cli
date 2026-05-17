@@ -1,0 +1,22 @@
+{
+  "com.linkedin.realtimefrontend.DecoratedEvent": {
+    "topic": "urn:li-realtime:typingIndicatorsTopic:urn:li:fsd_profile:ACoAAAExample",
+    "leftServerAt": 1747300000789,
+    "id": "evt-typing-1",
+    "payload": {
+      "data": {
+        "_type": "doDecorateTypingIndicatorMessengerRealtimeDecoration",
+        "doDecorateTypingIndicatorMessengerRealtimeDecoration": {
+          "result": {
+            "typingParticipant": {
+              "entityUrn": "urn:li:msg_messagingParticipant:urn:li:fsd_profile:ACoAAASender"
+            },
+            "conversation": {
+              "entityUrn": "urn:li:msg_conversation:(urn:li:fsdProfile:ACoAAAExample,2-bbbbbbbb)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

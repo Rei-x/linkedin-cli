@@ -1,0 +1,15 @@
+{
+  "com.linkedin.realtimefrontend.DecoratedEvent": {
+    "topic": "urn:li-realtime:somethingNewTopic",
+    "leftServerAt": 1747300001500,
+    "id": "evt-unknown-1",
+    "payload": {
+      "data": {
+        "_type": "doDecorateSomethingWeDontHandleYetRealtimeDecoration",
+        "doDecorateSomethingWeDontHandleYetRealtimeDecoration": {
+          "result": {}
+        }
+      }
+    }
+  }
+}
